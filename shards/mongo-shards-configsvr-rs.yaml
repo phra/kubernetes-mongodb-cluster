@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: mongo-configsvr-node1
-        image: index.caicloud.io/caicloud/mongo:3.2
+        image: mongo
         command:
         - mongod
         - "--configsvr"
@@ -92,7 +92,7 @@ spec:
     spec:
       containers:
       - name: mongo-configsvr-node2
-        image: index.caicloud.io/caicloud/mongo:3.2
+        image: mongo
         command:
         - mongod
         - "--configsvr"
@@ -124,7 +124,7 @@ spec:
     spec:
       containers:
       - name: mongo-configsvr-node3
-        image: index.caicloud.io/caicloud/mongo:3.2
+        image: mongo
         command:
         - mongod
         - "--configsvr"
